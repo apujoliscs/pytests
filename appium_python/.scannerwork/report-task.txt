@@ -1,0 +1,6 @@
+projectKey=Python-Tests
+serverUrl=http://localhost:9000
+serverVersion=9.7.0.61563
+dashboardUrl=http://localhost:9000/dashboard?id=Python-Tests
+ceTaskId=AYQPcU1ifeZ6chsHPdDT
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYQPcU1ifeZ6chsHPdDT

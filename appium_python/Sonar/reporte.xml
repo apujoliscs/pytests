@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.169" timestamp="2022-10-26T09:05:42.379152" hostname="11LAP5CG9082FRT"><testcase classname="prueba_test" name="test_constructor" time="0.001" /><testcase classname="prueba_test" name="test_constructor2" time="0.001" /><testcase classname="prueba_test" name="test_constructor3" time="0.006"><failure message="AssertionError: assert 'Juan' == 'Juanjo'&#10;  - Juanjo&#10;  ?     --&#10;  + Juan">def test_constructor3():
+        objeto = main.claseNombre()
+&gt;       assert objeto.saludar() == "Juanjo"
+E       AssertionError: assert 'Juan' == 'Juanjo'
+E         - Juanjo
+E         ?     --
+E         + Juan
+
+prueba_test.py:14: AssertionError</failure></testcase></testsuite></testsuites>
