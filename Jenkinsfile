@@ -1,6 +1,5 @@
 pipeline {
 
-    call activate.bat
 
   agent any
 
