@@ -9,7 +9,7 @@ pipeline {
 
       steps {
 
-        bat 'python --version'
+        bat 'C:\\Users\\apujol\\AppData\\Local\\Programs\\Python\\Python310\\python.exe --version'
 
       }
 
