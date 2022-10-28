@@ -15,11 +15,11 @@ pipeline {
 
     }
 
-    stage('hello') {
+    stage('pip') {
 
       steps {
 
-        bat 'C:\\Users\\apujol\\AppData\\Local\\Programs\\Python\\Python310\\python.exe pip list'
+        bat 'pip list'
 
       }
 
