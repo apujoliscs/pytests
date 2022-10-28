@@ -19,7 +19,7 @@ pipeline {
 
       steps {
 
-        bat 'pip list'
+        bat 'C:\\Users\\apujol\\AppData\\Local\\Programs\\Python\\Python310\\python.exe pip list'
 
       }
 
