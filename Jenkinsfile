@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'python prueba_test.py'
+        sh 'python COMSec_LOGIN.py'
       }
     }
   }
