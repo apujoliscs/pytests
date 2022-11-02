@@ -13,7 +13,7 @@ pipeline {
     }
     stage ('Ahorita') {
       steps {
-        sh 'python C:\ProgramData\Jenkins\.jenkins\workspace\Pipeline Bueno\appium_python\Resto\COMSec_LOGIN.py'
+        sh 'python appium_python/Resto/COMSec_LOGIN.py'
   }
 }
   }
