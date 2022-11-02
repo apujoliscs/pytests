@@ -7,6 +7,7 @@ pipeline {
       }
     }
     stage('Check PyTest Version') {
+     steps {
         sh 'pytest --version'
       }
     }
