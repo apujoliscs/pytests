@@ -11,7 +11,7 @@ pipeline {
         sh 'pytest --version'
       }
     }
-    stage ('Run Calculator & tipe some numbers') {
+    stage ('Run Dialer, tipe some numbers & make a call') {
       steps {
         sh 'python appium_python/Resto/Abrir_Calculadora.py'
   }
