@@ -1,11 +1,10 @@
-# from multiprocessing.pool import AsyncResult
-import sys
-sys.path.append("C:\Users\apujol\PycharmProjects\appium_python\venv\Scripts\python.exe")
+#from multiprocessing.pool import AsyncResult
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
-#from appium.webdriver.common.appiumby import AppiumBy
-import allure
+from appium.webdriver.common.appiumby import AppiumBy
 import pytest
+import allure
+from allure_commons.types import AttachmentType
 import time
 
 
