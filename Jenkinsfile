@@ -11,9 +11,9 @@ pipeline {
         sh 'pytest --version'
       }
     }
-    stage ('Run Dialer, tipe some numbers & make a call') {
+    stage ('COMSec Login Tests ->') {
       steps {
-        sh 'python appium_python/Resto/Abrir_Calculadora.py'
+        sh 'python appium_python/Resto/COMSec_LOGIN_test.py'
   }
 }
   }
