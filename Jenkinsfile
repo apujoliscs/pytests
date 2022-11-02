@@ -13,7 +13,7 @@ pipeline {
     }
     stage ('COMSec Login Tests ->') {
       steps {
-        sh 'python38 -m pip install Appium-Python-Client'
+        sh 'python -m pip install Appium-Python-Client'
         sh 'pytest appium_python/Resto/COMSec_LOGIN.py'
   }
 }
