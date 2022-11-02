@@ -13,7 +13,7 @@ pipeline {
     }
     stage ('COMSec Login Tests ->') {
       steps {
-        sh 'pytest appium_python/Resto/COMSec_LOGIN_test.py'
+        sh 'pytest appium_python\Resto\COMSec_LOGIN_test.py'
   }
 }
   }
