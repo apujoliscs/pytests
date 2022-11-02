@@ -8,6 +8,7 @@ pipeline {
     }
     stage('Check PyTest Version') {
       steps {
+        sh 'pip install allure'
         sh 'pytest --version'
       }
     }
