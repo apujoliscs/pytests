@@ -13,7 +13,7 @@ pipeline {
     }
     stage ('Ahorita') {
       steps {
-        sh 'python /appium_python/Resto/COMSec_LOGIN_test.py'
+        sh 'python https://github.com/apujoliscs/pytests/blob/main/appium_python/Resto/COMSec_LOGIN.py'
   }
 }
   }
