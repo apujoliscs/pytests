@@ -1,4 +1,6 @@
 # from multiprocessing.pool import AsyncResult
+import sys
+sys.path.append("C:\Users\apujol\PycharmProjects\appium_python\venv\Lib\site-packages")
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 #from appium.webdriver.common.appiumby import AppiumBy
