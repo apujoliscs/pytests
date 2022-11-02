@@ -1,5 +1,4 @@
 import main
-import pytest
 
 def test_constructor():
     objeto = main.claseNombre()
