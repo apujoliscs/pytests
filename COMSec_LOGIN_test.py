@@ -117,4 +117,4 @@ def test_invalidCredentials4(test_setup):
     driver.find_element("id", 'com.indra.ptt:id/butConectar').click()
     time.sleep(10)
     mensaje_error = driver.find_element("id", 'com.indra.ptt:id/textError')
-    assert ".Ptt" in driver.current_activity and mensaje_error.text == "Usuario o contraseña incorrecta"
+    assert ".Ptt" in driver.current_activity and mensaje_error.text == "Tiempo de conexión con IMS agotado"
