@@ -7,10 +7,6 @@ pipeline {
       }
     }
     stage('Check PyTest Version') {
-      steps {
-        sh 'pip install allure-pytest'
-        sh 'pip install allure-python-commons'
-        sh 'pip install Appium-Python-Client'
         sh 'pytest --version'
       }
     }
