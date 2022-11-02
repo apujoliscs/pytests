@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'pytest --version'
+        sh 'pip list'
       }
     }
   }
