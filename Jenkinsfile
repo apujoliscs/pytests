@@ -13,7 +13,6 @@ pipeline {
     }
     stage ('Send Reports to Allure') {
       steps {
-        @JAVA_HOME='/Program Files/Java/jdk11'
         sh 'allure serve /appium_python'
   }
 }
