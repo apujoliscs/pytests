@@ -17,7 +17,7 @@ pipeline {
     }
     stage ('Send Reports to Allure') {
       steps {
-        sh 'allure serve /reports'
+        allure includeProperties: false, jdk: '', report: 'reports', results: [[path: 'reports']]
   }
 }
    }
