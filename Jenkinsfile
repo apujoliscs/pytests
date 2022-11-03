@@ -8,7 +8,7 @@ pipeline {
     }
       stage('Example') {
         steps {
-        echo "Running ${env.JAVA_HOME} on ${Program Files/Java/jdk1.8}"
+        echo "Running ${env.JAVA_HOME} on ${env.'Program Files/Java/jdk1.8'}"
             }
         }
     stage('Check PyTest Version') {
