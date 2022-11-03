@@ -18,7 +18,7 @@ pipeline {
     stage ('Send Reports to Allure') {
       steps {
         sh 'java --version'
-        allure includeProperties: false, jdk: '', report: 'reports', results: [[path: 'reports']]
+        allure includeProperties: false, jdk: '11.0.11', report: 'reports', results: [[path: 'reports']]
   }
 }
    }
