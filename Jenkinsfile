@@ -13,7 +13,7 @@ pipeline {
     }
     stage ('COMSec Login Tests') {
       steps {
-        sh 'pytest -v -s --alluredir="\appium_python" COMSec_LOGIN_test.py'
+        sh 'pytest -v -s --alluredir="/appium_python" COMSec_LOGIN_test.py'
   }
 }
    }
