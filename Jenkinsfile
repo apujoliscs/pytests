@@ -2,6 +2,7 @@ pipeline {
   agent any
    environment {
                 JAVA_HOME = '../../../Program Files/Java/jdk1.8'
+     sh 'export -p'
             }
   stages {
     stage('Check Python Version') {
