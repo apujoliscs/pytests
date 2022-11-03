@@ -11,11 +11,6 @@ pipeline {
         sh 'pytest --version'
       }
     }
-    stage ('COMSec Login Tests') {
-      steps {
-        sh 'pytest -v -s --alluredir="/appium_python" COMSec_LOGIN_test.py'
-  }
-}
     stage ('Send Reports to Allure') {
       steps {
         sh 'allure serve /appium_python'
