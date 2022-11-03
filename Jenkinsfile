@@ -17,7 +17,7 @@ pipeline {
     }
     stage ('Send Reports to Allure') {
       steps {
-        sh 'allure serve /appium_python'
+        sh 'allure serve /reports'
   }
 }
    }
