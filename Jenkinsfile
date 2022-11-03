@@ -1,7 +1,7 @@
 pipeline {
   agent any
    environment {
-                JAVA_HOME = '../../../Program Files\Java\jdk1.8'
+                JAVA_HOME = '../../../Program Files/Java/jdk1.8'
             }
   stages {
     stage('Check Python Version') {
