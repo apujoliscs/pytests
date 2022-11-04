@@ -17,7 +17,7 @@ pipeline {
     }
     stage ('Send Reports to Allure') {
       steps {
-        sh 'allure serve reports'
+        sh 'allure open reports'
   }
 }
    }
