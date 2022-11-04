@@ -17,7 +17,7 @@ pipeline {
     }
     stage ('Send Reports to Allure') {
       steps {
-        sh 'allure serve pytests\reports'
+        sh 'allure serve reports'
   }
 }
    }
