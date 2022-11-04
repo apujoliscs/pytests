@@ -20,5 +20,10 @@ pipeline {
         sh 'allure open reports'
   }
 }
+    stage ('next') {
+      steps {
+        sh 'pytest --version'
+  }
+}
    }
 }
