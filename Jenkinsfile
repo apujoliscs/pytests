@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+    JAVA_HOME = "C:\\Program Files\\Java\\jdk11"
+  }
   stages {
     stage('Check Python Version') {
       steps {
